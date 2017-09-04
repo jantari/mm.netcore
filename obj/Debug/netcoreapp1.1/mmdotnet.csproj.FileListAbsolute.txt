@@ -1,0 +1,8 @@
+C:\Users\janta\Documents\mmdotnet\bin\Debug\netcoreapp1.1\mmdotnet.deps.json
+C:\Users\janta\Documents\mmdotnet\bin\Debug\netcoreapp1.1\mmdotnet.runtimeconfig.json
+C:\Users\janta\Documents\mmdotnet\bin\Debug\netcoreapp1.1\mmdotnet.runtimeconfig.dev.json
+C:\Users\janta\Documents\mmdotnet\bin\Debug\netcoreapp1.1\mmdotnet.dll
+C:\Users\janta\Documents\mmdotnet\bin\Debug\netcoreapp1.1\mmdotnet.pdb
+C:\Users\janta\Documents\mmdotnet\obj\Debug\netcoreapp1.1\mmdotnet.AssemblyInfo.cs
+C:\Users\janta\Documents\mmdotnet\obj\Debug\netcoreapp1.1\mmdotnet.dll
+C:\Users\janta\Documents\mmdotnet\obj\Debug\netcoreapp1.1\mmdotnet.pdb
