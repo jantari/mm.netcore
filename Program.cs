@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 
 namespace mmdotnet
@@ -20,10 +20,11 @@ namespace mmdotnet
 
                 Console.WriteLine("=== Round {0} ===", round);
 
-                while (userInput.Length < 4) {
+                do {
                     userInput = Console.ReadLine();
-                }
-                ugPins = userInput.ToCharArray();
+                } while (userInput.Length < 4);
+
+                ugPins = userInput.ToCharArray(0, 4);
                 Console.WriteLine("Your guess: {0}{1}{2}{3}",ugPins[0],ugPins[1],ugPins[2],ugPins[3]);
 
                 if (Enumerable.SequenceEqual(ugPins,mmPins)) {
@@ -53,7 +54,6 @@ namespace mmdotnet
                     }
                     Array.Clear(pinXmatched, 0, 4);
                     Array.Clear(pinOmatched, 0, 4);
-                    userInput = String.Empty;
                     Console.Write("\n");
                 }
             }
@@ -62,7 +62,7 @@ namespace mmdotnet
                 Console.WriteLine("GEWONNEN!");
             } else {
                 Console.WriteLine("Verloren ...");
-		Console.WriteLine("Die Pins waeren {0} gewesen",new string(mmPins));
+	            Console.WriteLine("Die Pins waeren {0} gewesen",new string(mmPins));
             }
 
         }
